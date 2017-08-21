@@ -1,0 +1,26 @@
+
+metadata:
+    name: smoke_testing
+    format: "Lava-Test-Shell Test Definition 1.0"
+    description: "waiting for test ready."
+    maintainer:
+        - qinsl0106@thundersoft.com
+    scope:
+        - prepare
+    os:
+        - ubuntu
+        - openembedded
+        - fedora
+        - opensuse
+        - centos
+        - debian
+
+    devices:
+        - d02
+        - d03
+        - d01
+        - d05
+
+run:
+    steps:
+      - cd ./common/scripts; ./prepare.sh cd -

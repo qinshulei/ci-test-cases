@@ -19,6 +19,7 @@ metadata:
         - d02
         - d03
         - d01
+        - d05
 
 run:
     steps:

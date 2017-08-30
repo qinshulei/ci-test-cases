@@ -29,7 +29,7 @@ run:
         - lava-test-case linux-linaro-etc-issue --shell cat /etc/issue
         - lava-test-case linux-linaro-cpuinfo --shell cat /proc/cpuinfo
         - lava-test-case linux-linaro-meminfo --shell cat /proc/meminfo
-        - lava-test-case linux-linaro-dmesg --shell dmesg
+        #- lava-test-case linux-linaro-dmesg --shell dmesg
         - lava-test-case linux-linaro-ps --shell ps
         - lava-test-case linux-linaro-issue --shell cat /etc/issue || cat /etc/redhat-release
         - lava-test-case linux-linaro-interrupts --shell cat /proc/interrupts

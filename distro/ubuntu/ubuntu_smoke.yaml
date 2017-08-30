@@ -10,7 +10,6 @@ metadata:
     os:
         - ubuntu
     devices:
-        - d02
         - d03
         - d05
 

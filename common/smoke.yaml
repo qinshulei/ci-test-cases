@@ -1,4 +1,3 @@
-
 metadata:
     name: smoke_testing
     format: "Lava-Test-Shell Test Definition 1.0"
@@ -16,9 +15,7 @@ metadata:
         - debian
 
     devices:
-        - d02
         - d03
-        - d01
         - d05
 
 run:

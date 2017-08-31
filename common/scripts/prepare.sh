@@ -3,7 +3,7 @@
 sleep 10
 
 # wait the apt ready.
-while (( $(ps -ef | grep '[a]pt-get' | wc -l) > 0 ));do
+while (( $(ps -ef | grep '[a]pt' | wc -l) > 0 ));do
     echo -n "."
     sleep 1
 done
@@ -11,7 +11,7 @@ done
 sleep 10
 
 # wait the apt ready.
-while (( $(ps -ef | grep '[a]pt-get' | wc -l) > 0 ));do
+while (( $(ps -ef | grep '[a]pt' | wc -l) > 0 ));do
     echo -n "."
     sleep 1
 done
@@ -19,7 +19,7 @@ done
 sleep 10
 
 # wait the apt ready.
-while (( $(ps -ef | grep '[a]pt-get' | wc -l) > 0 ));do
+while (( $(ps -ef | grep '[a]pt' | wc -l) > 0 ));do
     echo -n "."
     sleep 1
 done

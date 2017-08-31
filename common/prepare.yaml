@@ -9,7 +9,6 @@ metadata:
         - prepare
     os:
         - ubuntu
-        - centos
 
     devices:
         - d03

@@ -26,4 +26,7 @@ done
 
 ps aux | grep '[a]pt'
 
+apt-get update
+apt-get install htop
+
 lava-test-case prepare-wait-apt --result pass

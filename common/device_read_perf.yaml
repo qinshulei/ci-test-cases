@@ -7,29 +7,18 @@ metadata:
         - hanumantha.naradla@linaro.org
     os:
         - ubuntu
-        - opensuse
-        - debian
         - centos
-        - fedora
-        
+
     scope:
         - performance
     devices:
-        - origen
-        - snowball
-        - panda
-        - panda-es
-        - vexpress-a9
-        - vexpress-tc2
-        - highbank
-        - rtsm_foundation-armv8
-        - rtsm_fvp_base-aemv8a
-        - arndale
-        - aa9
-        - d02
         - d03
+        - d05
     environment:
         - lava-test-shell
+    level: 1
+    ready: false
+
 install:
     deps:
         - hdparm

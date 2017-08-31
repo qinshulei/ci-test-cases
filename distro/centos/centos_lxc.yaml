@@ -10,8 +10,10 @@ metadata:
     os:
         - centos
     devices:
-        - d02
+        - d05
         - d03
+    level: 1
+    ready: false
 
 params:
     # Number of cycles helloworld is called (for loop repetitions)

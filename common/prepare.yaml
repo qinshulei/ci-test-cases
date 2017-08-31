@@ -1,6 +1,6 @@
 
 metadata:
-    name: smoke_testing
+    name: test_prepare
     format: "Lava-Test-Shell Test Definition 1.0"
     description: "waiting for test ready."
     maintainer:
@@ -9,17 +9,13 @@ metadata:
         - prepare
     os:
         - ubuntu
-        - openembedded
-        - fedora
-        - opensuse
         - centos
-        - debian
 
     devices:
-        - d02
         - d03
-        - d01
         - d05
+    level: 10
+    ready: true
 
 run:
     steps:

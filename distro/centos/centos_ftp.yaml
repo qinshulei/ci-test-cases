@@ -9,16 +9,14 @@ metadata:
         - functional
     os:
         - ubuntu
-        - openembedded
-        - fedora
-        - opensuse
         - centos
-        - debian
 
     devices:
-        - d02
+        - d05
         - d03
-        - d01
+    level: 1
+    ready: false
+
 install:
     deps:
         - vsftpd

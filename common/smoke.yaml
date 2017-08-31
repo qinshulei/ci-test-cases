@@ -8,15 +8,13 @@ metadata:
         - functional
     os:
         - ubuntu
-        - openembedded
-        - fedora
-        - opensuse
         - centos
-        - debian
 
     devices:
         - d03
         - d05
+    level: 5
+    ready: true
 
 run:
     steps:

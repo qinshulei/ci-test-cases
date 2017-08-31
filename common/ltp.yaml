@@ -10,12 +10,10 @@ metadata:
     scope:
         - functional
     devices:
-        - panda
-        - panda-es
-        - arndale
-        - vexpress-a9
-        - vexpress-tc2
-        - ifc6410
+        - D03
+        - D05
+    level: 1
+    ready: false
 
 install:
     steps:

@@ -8,20 +8,17 @@ metadata:
         - arthur.she@linaro.org
     os:
         - ubuntu
-        - opensuse
-        - debian
         - centos
-        - fedora
+
     devices:
-        - arndale
-        - beaglebone-black
-        - rtsm_fvp_base-aemv8a
-        - juno
-        - d02
         - d03
+        - d05
+
     scope:
         - performance
         - preempt-rt
+    level: 1
+    ready: false
 
 install:
     deps:

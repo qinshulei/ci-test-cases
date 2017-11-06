@@ -10,8 +10,8 @@ metadata:
     os:
         - centos
     devices:
-        - d02
         - d03
+        - d05
     level: 5
     ready: true
 

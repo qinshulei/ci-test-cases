@@ -14,7 +14,7 @@ metadata:
         - d03
         - d05
     level: 5
-    ready: true
+    ready: false
 
 run:
     steps:
@@ -28,7 +28,7 @@ run:
         - lava-test-case linux-linaro-cpuinfo --shell cat /proc/cpuinfo
         - lava-test-case linux-linaro-meminfo --shell cat /proc/meminfo
         #- lava-test-case linux-linaro-dmesg --shell dmesg
-        - lava-test-case linux-linaro-ps --shell ps
+        # - lava-test-case linux-linaro-ps --shell ps
         # - lava-test-case linux-linaro-issue --shell cat /etc/issue || cat /etc/redhat-release
         - lava-test-case linux-linaro-interrupts --shell cat /proc/interrupts
         - lava-test-case linux-linaro-boot-cmds --shell cat /proc/cmdline
@@ -37,6 +37,6 @@ run:
         - lava-test-case linux-linaro-env --shell env
         - lava-test-case linux-linaro-lsmod --shell lsmod
         - lava-test-case linux-linaro-cpu-info --shell lscpu
-        - lava-test-case linux-linaro-pci-info --shell lspci
+        # - lava-test-case linux-linaro-pci-info --shell lspci
         - lava-test-case linux-linaro-usb-info --shell lsusb
         #- cd ./common/scripts; ./dmidecode.sh cd -

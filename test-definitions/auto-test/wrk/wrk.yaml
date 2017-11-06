@@ -1,6 +1,6 @@
 
 metadata:
-    name: wrk _testing
+    name: wrk_testing
     format: "Lava-Test-Shell Test Definition 1.0"
     description: "wrk is a simple HTTP performance testing tool"
     maintainer:

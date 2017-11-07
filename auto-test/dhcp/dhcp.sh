@@ -18,7 +18,7 @@ case $distro in
 esac
 
 dhclient -v -r eth0
-ping 192.168.1.1
+ping 192.168.1.1 -c 5
 
 dhclient -v eth0
 

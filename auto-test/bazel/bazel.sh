@@ -110,7 +110,7 @@ EOF
 print_info $? setup-package-BUILD
 
 ins=`bazel build //src/main/java/com/example/cmdline:runner`
-cat $ins | grep 'ERROR'
+cat "$ins" | grep 'ERROR'
 print_info $? run-package-ERROR
 
 #sed -i '/example/Greeting.java/a\    visibility = ["//src/main/java/com/example/cmdline:__pkg__"],' BUILD

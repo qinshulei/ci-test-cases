@@ -13,7 +13,7 @@ metadata:
         - D03
         - D05
     level: 1
-    ready: false
+    ready: true
 
 install:
     steps:

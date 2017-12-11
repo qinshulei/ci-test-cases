@@ -18,7 +18,7 @@ metadata:
         - performance
         - preempt-rt
     level: 1
-    ready: false
+    ready: true
 
 install:
     deps:

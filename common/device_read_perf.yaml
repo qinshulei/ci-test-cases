@@ -17,7 +17,7 @@ metadata:
     environment:
         - lava-test-shell
     level: 1
-    ready: false
+    ready: true
 
 install:
     deps:

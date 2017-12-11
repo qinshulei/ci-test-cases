@@ -6,7 +6,7 @@ metadata:
     maintainer:
         - meili760628705@163.com
     scope:
-        - functional
+        - Functional
     os:
         - ubuntu
         - centos
@@ -22,4 +22,3 @@ parse:
     fixupdict:
         FAIL: fail
         PASS: pass
-

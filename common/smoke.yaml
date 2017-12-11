@@ -14,7 +14,7 @@ metadata:
         - d03
         - d05
     level: 5
-    ready: false
+    ready: true
 
 run:
     steps:

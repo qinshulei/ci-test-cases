@@ -1,0 +1,21 @@
+metadata:
+    name: mini_testing6
+    format: "Lava-Test-Shell Test Definition 1.0"
+    description: "mini test 6"
+    maintainer:
+        - qinsl0106@thundersoft.com
+    scope:
+        - example
+    os:
+        - ubuntu
+        - centos
+    devices:
+        - d03
+        - d05
+    level: 1
+    ready: true
+
+run:
+    steps:
+        - lava-test-case linux-ls-current6 --shell ls
+        - lava-test-case linux-ls-root6 --shell ls /
